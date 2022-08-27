@@ -80,81 +80,88 @@ body::-webkit-scrollbar {
           transition: all .6s ease-in-out; }
 
 /*************** home slider ***************/
-.home__slider .home__slider-container {
+.home__slider {
   display: flex;
-  justify-content: space-between;
   align-items: center; }
-  .home__slider .home__slider-container .home__slider-content {
-    width: 90%; }
-  .home__slider .home__slider-container .slide-left {
-    padding: 40px; }
-  .home__slider .home__slider-container .slide-right {
-    padding: 40px; }
-    .home__slider .home__slider-container .slide-right h4 {
-      letter-spacing: 1px;
-      color: #FFB900; }
-    .home__slider .home__slider-container .slide-right h2 a {
-      text-decoration: none;
-      color: #fff;
-      letter-spacing: 1px; }
-    .home__slider .home__slider-container .slide-right p {
-      color: #cfcece;
-      letter-spacing: 1px; }
-    .home__slider .home__slider-container .slide-right .home__slider-right-bottom {
-      display: flex;
-      flex-direction: column; }
-      .home__slider .home__slider-container .slide-right .home__slider-right-bottom span {
+  .home__slider .home__slider-container {
+    display: flex;
+    overflow: hidden; }
+    .home__slider .home__slider-container .home__slider-content {
+      display: -webkit-box; }
+      .home__slider .home__slider-container .home__slider-content .slide {
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+    .home__slider .home__slider-container .slide-left {
+      padding: 40px; }
+    .home__slider .home__slider-container .slide-right {
+      padding: 40px; }
+      .home__slider .home__slider-container .slide-right h4 {
         letter-spacing: 1px;
-        color: #cfcece; }
-        .home__slider .home__slider-container .slide-right .home__slider-right-bottom span a {
-          text-decoration: none;
-          color: #42f998; }
-  .home__slider .home__slider-container img {
-    width: 100%; }
-.home__slider .arrow i {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 3%;
-  border-radius: 50%;
-  padding: 15px;
-  cursor: pointer;
-  background-color: #9e9e9e;
-  color: #fff; }
-  .home__slider .arrow i:hover {
-    transition: all .3s ease-in;
-    background-color: #616161; }
+        color: #FFB900; }
+      .home__slider .home__slider-container .slide-right h2 a {
+        text-decoration: none;
+        color: #fff;
+        letter-spacing: 1px; }
+      .home__slider .home__slider-container .slide-right p {
+        color: #cfcece;
+        letter-spacing: 1px; }
+      .home__slider .home__slider-container .slide-right .home__slider-right-bottom {
+        display: flex;
+        flex-direction: column; }
+        .home__slider .home__slider-container .slide-right .home__slider-right-bottom span {
+          letter-spacing: 1px;
+          color: #cfcece; }
+          .home__slider .home__slider-container .slide-right .home__slider-right-bottom span a {
+            text-decoration: none;
+            color: #42f998; }
+    .home__slider .home__slider-container img {
+      width: 100%; }
+  .home__slider .arrow i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    background-color: #9e9e9e;
+    color: #fff; }
+    .home__slider .arrow i:hover {
+      transition: all .3s ease-in;
+      background-color: #616161; }
 
 /*************** home container ***************/
 .home__container .header h4 {
   letter-spacing: 1px;
   color: #FFB900;
   text-decoration: underline; }
-.home__container .row-left h4 a {
+.home__container .home-top-left h4 a {
   text-decoration: none;
   color: #fff;
   letter-spacing: 1px; }
-.home__container .row-left p {
+.home__container .home-top-left p {
   color: #cfcece;
   letter-spacing: 1px; }
-.home__container .row-right .row-right-content {
+.home__container .home-top-right .home__container-top-row-right {
   width: 100%; }
-  .home__container .row-right .row-right-content img {
+  .home__container .home-top-right .home__container-top-row-right img {
     width: 50%; }
-  .home__container .row-right .row-right-content .description {
+  .home__container .home-top-right .home__container-top-row-right .description {
     width: 50%; }
-    .home__container .row-right .row-right-content .description h6 a {
+    .home__container .home-top-right .home__container-top-row-right .description h6 a {
       letter-spacing: 1px;
       color: #fff;
       text-decoration: none; }
-    .home__container .row-right .row-right-content .description .row-right-bottom {
+    .home__container .home-top-right .home__container-top-row-right .description .row-right-bottom {
       display: flex;
       flex-direction: column; }
-      .home__container .row-right .row-right-content .description .row-right-bottom span {
+      .home__container .home-top-right .home__container-top-row-right .description .row-right-bottom span {
         letter-spacing: 1px;
         font-size: 14px;
         color: #cfcece; }
-        .home__container .row-right .row-right-content .description .row-right-bottom span a {
+        .home__container .home-top-right .home__container-top-row-right .description .row-right-bottom span a {
           text-decoration: none;
           color: #42f998; }
 .home__container .home__container-bottom {
@@ -199,7 +206,7 @@ body::-webkit-scrollbar {
   color: #fff;
   text-transform: uppercase; }
   .home__container .all-trends a:hover {
-    color: #616161;
+    color: #42f998;
     transition: all .3s ease-out; }
 .home__container .home__container-center img {
   width: 100%; }
@@ -226,12 +233,30 @@ body::-webkit-scrollbar {
       .home__container .home__container-center .content-right-part .desc .content-right-part-bottom span a {
         text-decoration: none;
         color: #42f998; }
-.home__container .home__container-bottom .description {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-.home__container .home__container-bottom p {
-  color: #9e9e9e; }
+.home__container .home__container-bottom .row-left-content, .home__container .home__container-bottom .row-right-content {
+  width: 100%; }
+  .home__container .home__container-bottom .row-left-content img, .home__container .home__container-bottom .row-right-content img {
+    width: 30%; }
+  .home__container .home__container-bottom .row-left-content .description, .home__container .home__container-bottom .row-right-content .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%; }
+    .home__container .home__container-bottom .row-left-content .description .desc-bottom h6 a, .home__container .home__container-bottom .row-right-content .description .desc-bottom h6 a {
+      color: #fff;
+      text-decoration: none; }
+    .home__container .home__container-bottom .row-left-content .description .desc-bottom p, .home__container .home__container-bottom .row-right-content .description .desc-bottom p {
+      color: #9e9e9e; }
+    .home__container .home__container-bottom .row-left-content .description .desc-bottom .row-right-bottom, .home__container .home__container-bottom .row-right-content .description .desc-bottom .row-right-bottom {
+      display: flex;
+      flex-direction: column; }
+      .home__container .home__container-bottom .row-left-content .description .desc-bottom .row-right-bottom span, .home__container .home__container-bottom .row-right-content .description .desc-bottom .row-right-bottom span {
+        letter-spacing: 1px;
+        font-size: 14px;
+        color: #cfcece; }
+        .home__container .home__container-bottom .row-left-content .description .desc-bottom .row-right-bottom span a, .home__container .home__container-bottom .row-right-content .description .desc-bottom .row-right-bottom span a {
+          text-decoration: none;
+          color: #42f998; }
 .home__container .home__container-last .header h4 {
   text-decoration: underline;
   color: #FFB900;
@@ -260,14 +285,13 @@ body::-webkit-scrollbar {
 .home__container .home__container-last .home__pagination {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 30%; }
-.home__container .home__container-last .pag-prev {
-  width: 15%;
+  justify-content: space-between; }
+.home__container .home__container-last .pag-prev, .home__container .home__container-last .pag-next {
+  width: 25%;
   display: flex;
   justify-content: center;
   align-items: center; }
-  .home__container .home__container-last .pag-prev a {
+  .home__container .home__container-last .pag-prev a, .home__container .home__container-last .pag-next a {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -278,47 +302,7 @@ body::-webkit-scrollbar {
     background-color: #9e9e9e;
     text-decoration: none;
     font-weight: bold; }
-    .home__container .home__container-last .pag-prev a:hover {
-      background-color: #616161;
-      transition: all .3s ease-in-out;
-      color: #fff; }
-.home__container .home__container-last .pag-next {
-  width: 15%;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .home__container .home__container-last .pag-next a {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
-    color: #000;
-    border-radius: 15px;
-    background-color: #9e9e9e;
-    text-decoration: none;
-    font-weight: bold; }
-    .home__container .home__container-last .pag-next a:hover {
-      background-color: #616161;
-      transition: all .3s ease-in-out;
-      color: #fff; }
-.home__container .home__container-last .pag-num {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 60%; }
-  .home__container .home__container-last .pag-num a {
-    width: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
-    color: #000;
-    border-radius: 15px;
-    background-color: #9e9e9e;
-    text-decoration: none;
-    font-weight: bold; }
-    .home__container .home__container-last .pag-num a:hover {
+    .home__container .home__container-last .pag-prev a:hover, .home__container .home__container-last .pag-next a:hover {
       background-color: #616161;
       transition: all .3s ease-in-out;
       color: #fff; }
