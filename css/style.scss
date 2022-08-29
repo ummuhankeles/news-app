@@ -531,9 +531,10 @@ body::-webkit-scrollbar {
     }
 }
 
-/*************** business category ***************/
+/*************** all categories ***************/
 
-.business__container-row {
+.business__container-row,
+.entertainment__container-row {
     .col-md-6 {
         display: flex;
         justify-content: space-evenly;
