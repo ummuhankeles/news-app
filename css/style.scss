@@ -87,7 +87,7 @@ body::-webkit-scrollbar {
                     text-decoration: none;
                     color: #fff;
                     letter-spacing: 1px;
-                    font-size: 24px;
+                    font-size: 20px;
                 }
                 &:hover {
                     border-bottom: 2px solid #42f998;
@@ -343,7 +343,7 @@ body::-webkit-scrollbar {
                         }
                     }
                     p {
-                        color: #9e9e9e;
+                        color: #cfcece;
                     }
                     .row-right-bottom {
                         display: flex;
@@ -384,7 +384,7 @@ body::-webkit-scrollbar {
                     }
                 }
                 p {
-                    color: #9e9e9e;
+                    color: #cfcece;
                 }
                 .row-last-bottom {
                     display: flex;
@@ -570,18 +570,6 @@ body::-webkit-scrollbar {
             }
             .home__header-search {
                 display: none;
-            }
-        }
-    }
-
-    .home__nav {
-        .home__nav-links {
-            .home__nav-links-items {
-                .home__nav-links-item {
-                    a {
-                        font-size: 18px;
-                    }
-                }
             }
         }
     }
