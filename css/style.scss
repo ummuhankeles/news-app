@@ -28,7 +28,6 @@ body::-webkit-scrollbar {
                 color: #FFB900;
                 width: 45%;
                 border: none;
-                letter-spacing: 2px;
             }
         }
         .home__header-search {
@@ -86,7 +85,6 @@ body::-webkit-scrollbar {
                 a {
                     text-decoration: none;
                     color: #fff;
-                    letter-spacing: 1px;
                     font-size: 20px;
                 }
                 &:hover {
@@ -120,25 +118,21 @@ body::-webkit-scrollbar {
         .slide-right {
             padding: 40px;
             h4 {
-                letter-spacing: 1px;
                 color: #FFB900;
             }
             h2 {
                 a {
                     text-decoration: none;
                     color: #fff;
-                    letter-spacing: 1px;
                 }
             }
             p {
                 color: #cfcece;
-                letter-spacing: 1px;
             }
             .home__slider-right-bottom {
                 display: flex;
                 flex-direction: column;
                 span {
-                    letter-spacing: 1px;
                     color: #cfcece;
                     a {
                         text-decoration: none;
@@ -176,7 +170,6 @@ body::-webkit-scrollbar {
 .home__container {
     .header {
         h4 {
-            letter-spacing: 1px;
             color: #FFB900;
             text-decoration: underline;
         }
@@ -186,12 +179,10 @@ body::-webkit-scrollbar {
             a {
                 text-decoration: none;
                 color: #fff;
-                letter-spacing: 1px;
             }
         }
         p {
             color: #cfcece;
-            letter-spacing: 1px;
         }
     }
     .home-top-right {
@@ -203,7 +194,6 @@ body::-webkit-scrollbar {
             .description {
                 h6 {
                     a {
-                        letter-spacing: 1px;
                         color: #fff;
                         text-decoration: none;
                     }
@@ -213,7 +203,6 @@ body::-webkit-scrollbar {
                     display: flex;
                     flex-direction: column;
                     span {
-                        letter-spacing: 1px;
                         font-size: 14px;
                         color: #cfcece;
                         a {
@@ -229,7 +218,6 @@ body::-webkit-scrollbar {
         display: flex;
         flex-direction: column;
         span {
-            letter-spacing: 1px;
             color: #cfcece;
             a {
                 text-decoration: none;
@@ -240,7 +228,6 @@ body::-webkit-scrollbar {
     .right-col-content {
         width: 100%;
         .number {
-            letter-spacing: 1px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -252,7 +239,6 @@ body::-webkit-scrollbar {
             width: 70%;
             h6 {
                 a {
-                    letter-spacing: 1px;
                     color: #fff;
                     text-decoration: none;
                 }
@@ -261,7 +247,6 @@ body::-webkit-scrollbar {
                 display: flex;
                 flex-direction: column;
                 span {
-                    letter-spacing: 1px;
                     font-size: 14px;
                     color: #cfcece;
                     a {
@@ -274,7 +259,6 @@ body::-webkit-scrollbar {
     }
     .all-trends {
         a {
-            letter-spacing: 1px;
             text-decoration: none;
             font-size: 20px;
             color: #fff;
@@ -297,13 +281,11 @@ body::-webkit-scrollbar {
                 h4 {
                     text-decoration: none;
                     color: #FFB900;
-                    letter-spacing: 1px;
                 }
                 h2 {
                     a {
                         text-decoration: none;
                         color: #fff;
-                        letter-spacing: 1px;
                     }
                 }
                 p {
@@ -313,7 +295,6 @@ body::-webkit-scrollbar {
                     display: flex;
                     flex-direction: column;
                     span {
-                        letter-spacing: 1px;
                         color: #cfcece;
                         a {
                             text-decoration: none;
@@ -349,7 +330,6 @@ body::-webkit-scrollbar {
                         display: flex;
                         flex-direction: column;
                         span {
-                            letter-spacing: 1px;
                             font-size: 14px;
                             color: #cfcece;
                             a {
@@ -368,7 +348,6 @@ body::-webkit-scrollbar {
             h4 {
                 text-decoration: underline;
                 color: #FFB900;
-                letter-spacing: 1px;
             }
         }
         .last-desc {
@@ -390,7 +369,6 @@ body::-webkit-scrollbar {
                     display: flex;
                     flex-direction: column;
                     span {
-                        letter-spacing: 1px;
                         color: #cfcece;
                         a {
                             text-decoration: none;
@@ -435,13 +413,11 @@ body::-webkit-scrollbar {
             h4 {
                 color: #FFB900;
                 text-decoration: underline;
-                letter-spacing: 1px;
             }
         }
         .last-col-content {
             width: 100%;
             .number {
-                letter-spacing: 1px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -453,7 +429,6 @@ body::-webkit-scrollbar {
                 width: 70%;
                 h6 {
                     a {
-                        letter-spacing: 1px;
                         color: #fff;
                         text-decoration: none;
                     }
@@ -462,7 +437,6 @@ body::-webkit-scrollbar {
                     display: flex;
                     flex-direction: column;
                     span {
-                        letter-spacing: 1px;
                         font-size: 14px;
                         color: #cfcece;
                         a {
@@ -509,7 +483,6 @@ body::-webkit-scrollbar {
     }
     .title {
         color: #FFB900;
-        letter-spacing: 1px;
     }
     .footer-email-box {
         width: 100%;
@@ -557,6 +530,41 @@ body::-webkit-scrollbar {
         }
     }
 }
+
+/*************** business category ***************/
+
+.business__container-row {
+    .col-md-6 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        img {
+            width: 45%;
+        }
+        .description {
+            width: 45%;
+            h5 {
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                }
+            }
+            .row-right-bottom {
+                display: flex;
+                flex-direction: column;
+                span {
+                    font-size: 14px;
+                    color: #cfcece;
+                    a {
+                        text-decoration: none;
+                        color: #42f998;
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 /*************** mobil version ***************/
 
