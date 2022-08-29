@@ -379,42 +379,49 @@ body::-webkit-scrollbar {
 .business__container-row .col-md-6,
 .entertainment__container-row .col-md-6,
 .health__container-row .col-md-6,
-.science__container-row .col-md-6 {
+.science__container-row .col-md-6,
+.sports__container-row .col-md-6 {
   display: flex;
   justify-content: space-evenly;
   align-items: center; }
   .business__container-row .col-md-6 img,
   .entertainment__container-row .col-md-6 img,
   .health__container-row .col-md-6 img,
-  .science__container-row .col-md-6 img {
+  .science__container-row .col-md-6 img,
+  .sports__container-row .col-md-6 img {
     width: 45%; }
   .business__container-row .col-md-6 .description,
   .entertainment__container-row .col-md-6 .description,
   .health__container-row .col-md-6 .description,
-  .science__container-row .col-md-6 .description {
+  .science__container-row .col-md-6 .description,
+  .sports__container-row .col-md-6 .description {
     width: 45%; }
     .business__container-row .col-md-6 .description h5 a,
     .entertainment__container-row .col-md-6 .description h5 a,
     .health__container-row .col-md-6 .description h5 a,
-    .science__container-row .col-md-6 .description h5 a {
+    .science__container-row .col-md-6 .description h5 a,
+    .sports__container-row .col-md-6 .description h5 a {
       color: #fff;
       text-decoration: none; }
     .business__container-row .col-md-6 .description .row-right-bottom,
     .entertainment__container-row .col-md-6 .description .row-right-bottom,
     .health__container-row .col-md-6 .description .row-right-bottom,
-    .science__container-row .col-md-6 .description .row-right-bottom {
+    .science__container-row .col-md-6 .description .row-right-bottom,
+    .sports__container-row .col-md-6 .description .row-right-bottom {
       display: flex;
       flex-direction: column; }
       .business__container-row .col-md-6 .description .row-right-bottom span,
       .entertainment__container-row .col-md-6 .description .row-right-bottom span,
       .health__container-row .col-md-6 .description .row-right-bottom span,
-      .science__container-row .col-md-6 .description .row-right-bottom span {
+      .science__container-row .col-md-6 .description .row-right-bottom span,
+      .sports__container-row .col-md-6 .description .row-right-bottom span {
         font-size: 14px;
         color: #cfcece; }
         .business__container-row .col-md-6 .description .row-right-bottom span a,
         .entertainment__container-row .col-md-6 .description .row-right-bottom span a,
         .health__container-row .col-md-6 .description .row-right-bottom span a,
-        .science__container-row .col-md-6 .description .row-right-bottom span a {
+        .science__container-row .col-md-6 .description .row-right-bottom span a,
+        .sports__container-row .col-md-6 .description .row-right-bottom span a {
           text-decoration: none;
           color: #42f998; }
 
