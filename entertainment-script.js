@@ -1,8 +1,8 @@
 const entertainment = document.querySelector('#entertainment');
 const datas = document.querySelector('.entertainment__container-row');
 
-window.addEventListener('load', getBusiness);
-async function getBusiness() {
+window.addEventListener('load', getEntertainment);
+async function getEntertainment() {
     let entertainmentData = await fetch('https://newsapi.org/v2/top-headlines?country=tr&category=entertainment&apiKey=341bbc68b3b843159af93e0fae7dda1f').then(res => res.json());  
     console.log(entertainmentData);
     let item = '';

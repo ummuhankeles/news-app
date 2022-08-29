@@ -1,8 +1,8 @@
 const health = document.querySelector('#health');
 const datas = document.querySelector('.health__container-row');
 
-window.addEventListener('load', getBusiness);
-async function getBusiness() {
+window.addEventListener('load', getHealth);
+async function getHealth() {
     let healthData = await fetch('https://newsapi.org/v2/top-headlines?country=tr&category=health&apiKey=341bbc68b3b843159af93e0fae7dda1f').then(res => res.json());  
     console.log(healthData);
     let item = '';
