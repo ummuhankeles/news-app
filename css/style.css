@@ -432,6 +432,45 @@ body::-webkit-scrollbar {
           text-decoration: none;
           color: #42f998; }
 
+.business__container .pagination-box,
+.health__container .pagination-box,
+.entertainment__container .pagination-box,
+.science__container .pagination-box,
+.sports__container .pagination-box,
+.technology__container .pagination-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .business__container .pagination-box .prev-btn, .business__container .pagination-box .next-btn,
+  .health__container .pagination-box .prev-btn,
+  .health__container .pagination-box .next-btn,
+  .entertainment__container .pagination-box .prev-btn,
+  .entertainment__container .pagination-box .next-btn,
+  .science__container .pagination-box .prev-btn,
+  .science__container .pagination-box .next-btn,
+  .sports__container .pagination-box .prev-btn,
+  .sports__container .pagination-box .next-btn,
+  .technology__container .pagination-box .prev-btn,
+  .technology__container .pagination-box .next-btn {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #9e9e9e;
+    font-weight: 800;
+    border-radius: 25px; }
+    .business__container .pagination-box .prev-btn:hover, .business__container .pagination-box .next-btn:hover,
+    .health__container .pagination-box .prev-btn:hover,
+    .health__container .pagination-box .next-btn:hover,
+    .entertainment__container .pagination-box .prev-btn:hover,
+    .entertainment__container .pagination-box .next-btn:hover,
+    .science__container .pagination-box .prev-btn:hover,
+    .science__container .pagination-box .next-btn:hover,
+    .sports__container .pagination-box .prev-btn:hover,
+    .sports__container .pagination-box .next-btn:hover,
+    .technology__container .pagination-box .prev-btn:hover,
+    .technology__container .pagination-box .next-btn:hover {
+      color: #fff;
+      background-color: #616161; }
+
 /*************** mobil version ***************/
 @media screen and (max-width: 375px) {
   .home__header .row .home__header-logo a {
