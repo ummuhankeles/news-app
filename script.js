@@ -18,8 +18,7 @@ let data = [];
 const navToggle = document.querySelector(".navbar-toggle");
 const links = document.querySelector(".home__nav");
 navToggle.addEventListener('click', function() {
-    links.classList.toggle('show-nav')
-    //links.style.display = 'block';
+    links.classList.toggle('show-nav');
 })
 
 window.addEventListener('load', getData);

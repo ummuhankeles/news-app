@@ -7,6 +7,13 @@ let pageSize = 20;
 let dataLength;
 let data = [];
 
+// navbar toggle ----------------------------------
+const navToggle = document.querySelector(".navbar-toggle");
+const links = document.querySelector(".home__nav");
+navToggle.addEventListener('click', function() {
+    links.classList.toggle('show-nav');
+})
+
 async function getDatas(page = 1) {
     await getBusiness();
     if(page === 1) {
