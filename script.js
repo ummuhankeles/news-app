@@ -14,6 +14,14 @@ let pageSize = 3;
 let currentPage = 1;
 let data = [];
 
+// navbar toggle ----------------------------------
+const navToggle = document.querySelector(".navbar-toggle");
+const links = document.querySelector(".home__nav");
+navToggle.addEventListener('click', function() {
+    links.classList.toggle('show-nav')
+    //links.style.display = 'block';
+})
+
 window.addEventListener('load', getData);
 async function getData() {
     let result = await fetch('https://newsapi.org/v2/top-headlines?country=tr&apiKey=341bbc68b3b843159af93e0fae7dda1f').then(res => res.json());
@@ -323,7 +331,6 @@ async function getScience() {
 
 // slider ----------------------------------
 showSlides(slideIndex);
-
 // Next/previous controls
 function plusSlides(n) {
     showSlides(slideIndex += n);
@@ -340,3 +347,4 @@ function showSlides(n) {
     }
     slide[slideIndex-1].style.display = "flex";
 }
+
