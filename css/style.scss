@@ -638,7 +638,45 @@ body::-webkit-scrollbar {
     }
 }
 
-
+/*************** categories ***************/
+.categories__container {
+    .categories__container-row {
+        .categories__container-right {
+            .categories__container-right-row {
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                img {
+                    width: 50%;
+                }
+                .description {
+                    width: 48%;
+                    h6 {
+                        a {
+                            color: #fff;
+                            text-decoration: none;
+                        }
+                    }
+                    p {
+                        color: #cfcece;
+                    }
+                    .bottom {
+                        display: flex;
+                        flex-direction: column;
+                        span {
+                            font-size: 14px;
+                            color: #cfcece;
+                            a {
+                                text-decoration: none;
+                                color: #42f998;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 /*************** mobil version ***************/

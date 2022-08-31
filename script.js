@@ -24,6 +24,7 @@ navToggle.addEventListener('click', function() {
 window.addEventListener('load', getData);
 async function getData() {
     let result = await fetch('https://newsapi.org/v2/top-headlines?country=tr&apiKey=341bbc68b3b843159af93e0fae7dda1f').then(res => res.json());
+    console.log(result);
     //let data = Math.floor(Math.random() * result.articles.length);
     let sliderResult = result.articles.slice(0,3);
     let topRowLeftResult = result.articles.slice(3,4);

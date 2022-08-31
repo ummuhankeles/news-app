@@ -496,6 +496,30 @@ body::-webkit-scrollbar {
     .about__container .about__container-links .link i:hover {
       color: #42f998; }
 
+/*************** categories ***************/
+.categories__container .categories__container-row .categories__container-right .categories__container-right-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .categories__container .categories__container-row .categories__container-right .categories__container-right-row img {
+    width: 50%; }
+  .categories__container .categories__container-row .categories__container-right .categories__container-right-row .description {
+    width: 48%; }
+    .categories__container .categories__container-row .categories__container-right .categories__container-right-row .description h6 a {
+      color: #fff;
+      text-decoration: none; }
+    .categories__container .categories__container-row .categories__container-right .categories__container-right-row .description p {
+      color: #cfcece; }
+    .categories__container .categories__container-row .categories__container-right .categories__container-right-row .description .bottom {
+      display: flex;
+      flex-direction: column; }
+      .categories__container .categories__container-row .categories__container-right .categories__container-right-row .description .bottom span {
+        font-size: 14px;
+        color: #cfcece; }
+        .categories__container .categories__container-row .categories__container-right .categories__container-right-row .description .bottom span a {
+          text-decoration: none;
+          color: #42f998; }
+
 /*************** mobil version ***************/
 @media screen and (max-width: 375px) {
   .home__header .header-box .home__header-logo a {
