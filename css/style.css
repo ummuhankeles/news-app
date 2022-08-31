@@ -467,6 +467,35 @@ body::-webkit-scrollbar {
       color: #fff;
       background-color: #616161; }
 
+/* swipper */
+.about__container .about__container-projects .swiper {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 50px; }
+  .about__container .about__container-projects .swiper .swiper-slide {
+    width: 50%; }
+    .about__container .about__container-projects .swiper .swiper-slide .projects__page-container-card {
+      width: 100%;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0px 0px 15px 0px #000000;
+      background-color: #4b4550; }
+      .about__container .about__container-projects .swiper .swiper-slide .projects__page-container-card .projects__page-container-card-body {
+        padding: 15px; }
+        .about__container .about__container-projects .swiper .swiper-slide .projects__page-container-card .projects__page-container-card-body i {
+          color: #fff; }
+          .about__container .about__container-projects .swiper .swiper-slide .projects__page-container-card .projects__page-container-card-body i:hover {
+            color: #42f998; }
+.about__container .about__container-links .link {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .about__container .about__container-links .link i {
+    font-size: 38px;
+    color: #fff; }
+    .about__container .about__container-links .link i:hover {
+      color: #42f998; }
+
 /*************** mobil version ***************/
 @media screen and (max-width: 375px) {
   .home__header .header-box .home__header-logo a {

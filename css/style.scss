@@ -593,6 +593,53 @@ body::-webkit-scrollbar {
     }
 }
 
+/* swipper */
+
+.about__container {
+    .about__container-projects {
+        .swiper {
+            width: 100%;
+            padding-top: 20px;
+            padding-bottom: 50px;
+            .swiper-slide {
+                width: 50%;
+                .projects__page-container-card {
+                    width: 100%;
+                    border: none;
+                    border-radius: 15px;
+                    box-shadow: 0px 0px 15px 0px #000000;
+                    background-color: #4b4550;
+                    .projects__page-container-card-body {
+                        padding: 15px;
+                        i {
+                            color: #fff;
+                            &:hover {
+                                color: #42f998;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .about__container-links {
+        .link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            i {
+                font-size: 38px;
+                color: #fff;
+                &:hover {
+                    color: #42f998;
+                }
+            }
+        }
+    }
+}
+
+
+
 
 /*************** mobil version ***************/
 
