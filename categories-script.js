@@ -3,10 +3,10 @@ const datas = document.querySelector('.categories__container-right');
 const inputs = document.querySelectorAll('.form-check-input');
 
 inputs.forEach(item => {
-    let filteredData = item.value;
-    console.log(filteredData);
-    
     item.addEventListener('click', function() {
+        let filteredData = item.value;
+        console.log(filteredData);
+        filtered();
         async function filtered() {
             let filterResult = await fetch(`https://newsapi.org/v2/top-headlines?country=tr&category=${filteredData}&apiKey=341bbc68b3b843159af93e0fae7dda1f`).then(res => res.json());
             console.log(filterResult);
@@ -34,11 +34,10 @@ inputs.forEach(item => {
                 datas.innerHTML = item;
             });
         }
-        filtered();
     });
-    getDatas();
 })
 
+window.addEventListener('load', getDatas);
 async function getDatas() {
     let general = await fetch('https://newsapi.org/v2/top-headlines?country=tr&apiKey=341bbc68b3b843159af93e0fae7dda1f').then(res => res.json());
     //console.log(general);
