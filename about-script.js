@@ -1,6 +1,6 @@
 let typed = new Typed('.about__container-row-text', {
     strings: ['',`Merhaba, ben Ümmühan&nbsp;<i class="fa-solid fa-hand"></i><br/>Yazılım alanında kendini geliştirmeye çalışan ve kendini geliştirirken başkalarına da fayda sağlamayı hedefleyen biriyim. Kendimi <span style="color: #42f998;">Frontend Developer</span> olarak tanımlıyorum.`],
-    typeSpeed: 50,
+    typeSpeed: 30,
     startDelay: 0,
     backSpeed: 0,
     loop: true,
