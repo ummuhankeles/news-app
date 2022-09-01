@@ -83,6 +83,12 @@ body::-webkit-scrollbar {
                 height: 40px;
                 display: flex;
                 align-items: center;
+                .active {
+                    border-bottom: 2px solid #42f998;
+                    &:hover {
+                        border-bottom: none;
+                    }
+                }
                 a {
                     text-decoration: none;
                     color: #fff;

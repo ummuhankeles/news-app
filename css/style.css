@@ -67,6 +67,10 @@ body::-webkit-scrollbar {
         height: 40px;
         display: flex;
         align-items: center; }
+        .home__nav .home__nav-links .home__nav-links-items .home__nav-links-item .active {
+          border-bottom: 2px solid #42f998; }
+          .home__nav .home__nav-links .home__nav-links-items .home__nav-links-item .active:hover {
+            border-bottom: none; }
         .home__nav .home__nav-links .home__nav-links-items .home__nav-links-item a {
           text-decoration: none;
           color: #fff;
