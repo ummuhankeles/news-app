@@ -63,6 +63,8 @@ body::-webkit-scrollbar {
 /*************** home navbar ***************/
 
 .home__nav {
+    position: sticky;
+    top: 0;
     height: 80px;
     .home__nav-links {
         display: flex;
