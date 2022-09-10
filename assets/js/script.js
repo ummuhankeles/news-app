@@ -347,4 +347,3 @@ function showSlides(n) {
     }
     slide[slideIndex-1].style.display = "flex";
 }
-
