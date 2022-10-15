@@ -19,8 +19,6 @@ function getDatas() {
 async function getCategory(category) {
     let datas = await fetch(`https://newsapi.org/v2/top-headlines?country=tr&category=${category}&apiKey=341bbc68b3b843159af93e0fae7dda1f`).then(res => res.json()); 
     console.log(datas);
-    data = datas.articles;
-    dataLength = datas.totalResults;
     let item = '';
     datas.articles.forEach(e => {
         item += `
